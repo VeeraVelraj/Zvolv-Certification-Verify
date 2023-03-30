@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Zvolv-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+    <title>Certificate validation</title>
+    <script src="api.js"> </script>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+
+      <header class="header fixed-top">
+        <div class="branding docs-branding">
+          <div class="container-fluid position-relative py-2">
+            <div class="docs-logo-wrapper">
+              <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
+                type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="site-logo"><a class="navbar-brand" href="https://www.zvolv.com/"><img
+                    class="logo-icon me-2" src="logo-zvolv-light.png"
+                    style="width: 109px; height: 32px;" alt="logo"></a></div>
+            </div>
+            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          
+          <div class="row align-items-center">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+
+              <h2 class="mb-5">Search for Zvolv Certified Professionals</h2>
+
+              <form class="border-right pr-5 mb-5" method="post" id="certificate_id" name="">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="" id="" placeholder="Certificate ID" required>
+                  </div>                  
+                </div>
+                
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <input value="Validate" type="submit" id="submit" class="btn btn-primary rounded-0 py-0 px-4" data-toggle="modal" data-target="#modal-lg">
+                  </div>
+                  <div class="modal fade bd-example-modal-lg" id="modal-lg">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Certificate Details</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body p-0">
+                          <div class="container" id="results">
+                            <div class="table-wrapper">
+                            <table class="fl-table">
+                              <thead>
+                              <tr>
+                                <th>Name</th>
+                                <th>Email ID</th>
+                                <th>Issue Date</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>ABC</td>
+                                <td>abc@mail.com</td>
+                                <td>xx/xx/xxxx</td>
+                              </tr>                              
+                            <tbody>
+                            </table>
+                          </div>
+                            </div>
+                        </div>
+                        
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                </div>
+              </form>
+
+             
+
+            </div>
+            <div class="col-lg-4 ml-auto">
+               <img src="zvolv.jpg" alt="zvolv">
+              <h3 class="mb-4 px-4">Training & Certification</h3>
+            </div>
+          </div>
+        </div>  
+        </div>
+      </div>
+  </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
