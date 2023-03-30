@@ -181,3 +181,10 @@ label.error {
 .modal.fade .modal-dialog{
   padding-top: 15%;
 }
+
+@media only screen and (max-width:2560px) and (min-width:1025px) {
+  .content {
+  padding: 7rem 0;
+  margin-top: 20%;
+  }
+}
