@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         headers: {
           Accept: "application/json",
           "Content-Type": " application/json",
-          jwt: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBwLnp2b2x2LmNvbVwvcmVzdCIsImlhdCI6MTY3OTYzOTMwMSwibmJmIjoxNjc5NjM5MzAxLCJleHAiOjE2ODAyNDQxMDEsInVzZXJpZCI6MSwib3JnenZpY2VpZCI6MzAwMDI3OTA4NCwiZW1haWxpZCI6Inp2b2x2YWNhZGVteUBnbWFpbC5jb20ifQ.lGFaG0ghUUX97CrRyH9dR1OJyTPknuAM_LHYxOnGnvQ",
+          jwt: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBwLnp2b2x2LmNvbVwvcmVzdCIsImlhdCI6MTY4MDI3MDc4MiwibmJmIjoxNjgwMjcwNzgyLCJleHAiOjE2ODA4NzU1ODIsInVzZXJpZCI6MSwib3JnenZpY2VpZCI6MzAwMDI3OTA4NCwiZW1haWxpZCI6Inp2b2x2YWNhZGVteUBnbWFpbC5jb20ifQ.6SJut59PtP_4xmHJkI5tRSawNxT6rviwUSFl-Eegafw",
           businessDomain: "zvolvacademy",
           businessTagID: "98NCMBD2KBZ4R",
         },
